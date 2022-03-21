@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB70B2DF27E91D1500D18B56 /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB70B2DE27E91D1500D18B56 /* XMarkButton.swift */; };
 		AB7B70FC27DFA5BE003ED1DD /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7B70FB27DFA5BE003ED1DD /* SwiftfulCryptoApp.swift */; };
 		AB7B710327DFA5C0003ED1DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7B710227DFA5C0003ED1DD /* Preview Assets.xcassets */; };
 		AB7B710A27DFA6E2003ED1DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7B710927DFA6E2003ED1DD /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB70B2DE27E91D1500D18B56 /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
 		AB7B70F827DFA5BE003ED1DD /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7B70FB27DFA5BE003ED1DD /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		AB7B710227DFA5C0003ED1DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				AB7B711627DFAFBC003ED1DD /* CircleButton */,
 				AB7B713527E3CD6E003ED1DD /* SearchBarView.swift */,
 				AB7B713B27E5E47A003ED1DD /* StatisticView.swift */,
+				AB70B2DE27E91D1500D18B56 /* XMarkButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				AB7B712B27E23604003ED1DD /* NetworkingManager.swift in Sources */,
 				AB7B711A27DFB763003ED1DD /* CircleButtonAnimationView.swift in Sources */,
 				AB7B712127E0B964003ED1DD /* PreviewProvider.swift in Sources */,
+				AB70B2DF27E91D1500D18B56 /* XMarkButton.swift in Sources */,
 				AB7B712327E0C287003ED1DD /* Double.swift in Sources */,
 				AB7B713227E3671C003ED1DD /* CoinImageService.swift in Sources */,
 				AB7B711D27E005AE003ED1DD /* CoinModel.swift in Sources */,
