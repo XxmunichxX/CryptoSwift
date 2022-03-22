@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB6B06F027E928BC000733FA /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6B06EF27E928BC000733FA /* CoinLogoView.swift */; };
 		AB70B2DF27E91D1500D18B56 /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB70B2DE27E91D1500D18B56 /* XMarkButton.swift */; };
 		AB7B70FC27DFA5BE003ED1DD /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7B70FB27DFA5BE003ED1DD /* SwiftfulCryptoApp.swift */; };
 		AB7B710327DFA5C0003ED1DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7B710227DFA5C0003ED1DD /* Preview Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB6B06EF27E928BC000733FA /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 		AB70B2DE27E91D1500D18B56 /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
 		AB7B70F827DFA5BE003ED1DD /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7B70FB27DFA5BE003ED1DD /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				AB7B712D27E35B02003ED1DD /* CoinImageView.swift */,
+				AB6B06EF27E928BC000733FA /* CoinLogoView.swift */,
 			);
 			path = CoinImage;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			files = (
 				AB7B713A27E4EE62003ED1DD /* StatisticModel.swift in Sources */,
 				AB7B714227E61AE3003ED1DD /* MarketDataService.swift in Sources */,
+				AB6B06F027E928BC000733FA /* CoinLogoView.swift in Sources */,
 				AB7B713027E35B39003ED1DD /* CoinImageViewModel.swift in Sources */,
 				AB7B712827E0FE0E003ED1DD /* CoinDataService.swift in Sources */,
 				AB7B711F27E0B8D5003ED1DD /* CoinRowView.swift in Sources */,

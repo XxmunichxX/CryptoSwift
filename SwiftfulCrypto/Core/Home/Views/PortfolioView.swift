@@ -16,13 +16,21 @@ struct PortfolioView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 0) {
                     SearchBarView(searchText: $vm.searchText)
+                        .padding()
                     
-                    ScrollView(.horizontal, showsIndicators: true) {
+                    ScrollView(.horizontal, showsIndicators: false) {
                         LazyHStack(spacing: 10) {
                             ForEach(vm.allCoins) { coin in
-                                Text(coin.symbol.uppercased())
+                                CoinLogoView(coin: coin)
+                                    .frame(width: 70)
+                                    .padding(4)
+                                    .background(
+                                        RoundedRectangle(cornerRadius: 10)
+                                            .stroke(Color.theme.green, lineWidth: 1)
+                                    )
                             }
                         }
+                        .padding(.leading)
                     }
                 }
             }
