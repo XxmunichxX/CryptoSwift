@@ -36,6 +36,10 @@ struct PortfolioView: View {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     trailingNavBarButtons
                 }
+            }
+        }
+        .onChange(of: vm.searchText) { newValue in
+            if newValue == "" {
                 
             }
         }
