@@ -40,7 +40,7 @@ struct PortfolioView: View {
         }
         .onChange(of: vm.searchText) { newValue in
             if newValue == "" {
-                
+                removeSelectedCoin()
             }
         }
     }
